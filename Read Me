@@ -7,6 +7,7 @@ a sign language recognition for detecting sign language with English alphabets (
 1. The first thing done was downloading 27 gesture samples. For each gesture there are 1200 images which were 50x50 pixels. 
    All theses images were in grayscale which is stored in the gestures/ folder. The pictures are flipped as well. 
    Hence each gesture has 2400 images.
+   Download the dataset from https://drive.google.com/drive/folders/1YDc4-jk6VOpYAZsGdE44_RSawKwN2I8F?usp=sharing
    
 2. Created a CNN which look a lot similar to <a href="https://www.tensorflow.org/tutorials/layers">this MNIST classifying model</a> using Keras. 
 3. As of today, there are 27 gestures for which are 26 alphabets. And trained the model on these images.
